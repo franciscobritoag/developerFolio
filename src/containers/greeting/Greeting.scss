@@ -14,7 +14,7 @@
 }
 
 .greeting-main {
-  display: flex;
+  display: grid;
 }
 
 .subTitle {
@@ -54,7 +54,7 @@
 }
 
 .greeting-image-div > img {
-  max-width: 100%;
+  max-width: 10%;
   height: auto;
 }
 
