@@ -68,6 +68,10 @@
   background-color: $instagram;
 }
 
+.instagram2 i {
+  background-color: $instagram2;
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -76,10 +80,14 @@
 .linkedin i:hover,
 .facebook i:hover,
 .instagram i:hover,
+.instagram2 i:hover,
 .stack-overflow i:hover,
-.kaggle i:hover,
-.medium i:hover {
+.kaggle i:hover {
   background-color: $textColor;
+}
+
+.medium i:hover {
+  background-color: $cardSubtitle;
 }
 
 /* Media Query */

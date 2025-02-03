@@ -80,6 +80,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.instagram2 ? (
+        <a
+          href={socialMediaLinks.instagram2}
+          className="icon-button instagram2"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-instagram"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.twitter ? (
         <a
           href={socialMediaLinks.twitter}

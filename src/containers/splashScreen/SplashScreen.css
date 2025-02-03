@@ -7,6 +7,7 @@
 }
 
 .splash-animation-container {
+  transform: scale(0.7); /* Scale the animation to 50% of its original size */
   height: 50vh;
 }
 
@@ -18,5 +19,5 @@
   font-family: "Agustina Regular", cursive;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 20px;
+  padding: 0 10px;
 }

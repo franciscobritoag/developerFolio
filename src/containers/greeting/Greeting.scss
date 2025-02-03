@@ -23,6 +23,7 @@
 
 .greeting-main {
   display: flex;
+  padding: 0 10rem
 }
 
 .greeting-main > * {
@@ -59,6 +60,7 @@
 }
 
 .wave-emoji {
+  font-size: 45px;
   animation-duration: 1.8s;
   animation-iteration-count: infinite;
   animation-name: wave;

@@ -37,8 +37,8 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/franciscobritogarcia/",
   gmail: "francisco.brito.ag@gmail.com",
   medium: "https://medium.com/@franciscobritoag",
-  instagra: "https://www.instagram.com/chicobrito97",
-  instagram: "https://www.instagram.com/outofmemorydump",
+  instagram: "https://www.instagram.com/chicobrito97",
+  instagram2: "https://www.instagram.com/outofmemorydump",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
