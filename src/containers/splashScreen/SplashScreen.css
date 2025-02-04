@@ -7,7 +7,7 @@
 }
 
 .splash-animation-container {
-  transform: scale(0.7); /* Scale the animation to 50% of its original size */
+  transform: scale(0.5); /* Scale the animation to 50% of its original size */
   height: 50vh;
 }
 
