@@ -4,7 +4,7 @@ import Loading from "../../containers/loading/Loading";
 
 export default class DisplayLottie extends Component {
   render() {
-    const animationData = this.props.animationData;
+    const { animationData, style } = this.props;
     const defaultOptions = {
       loop: true,
       autoplay: true,
@@ -13,10 +13,13 @@ export default class DisplayLottie extends Component {
 
     return (
       <Suspense fallback={<Loading />}>
-        <Lottie
-          animationData={defaultOptions.animationData}
-          loop={defaultOptions.loop}
-        />
+        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100%" }}>
+          <Lottie
+            animationData={defaultOptions.animationData}
+            loop={defaultOptions.loop}
+            style={style} // Pass the style prop to the Lottie component
+          />
+        </div>
       </Suspense>
     );
   }
